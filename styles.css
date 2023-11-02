@@ -41,3 +41,24 @@ ul li{
     float: right;
     margin-right: 20px;
 }
+
+.overview-hero {
+    background-color: #bbcfdc; /* Replace this with the color of your choice */
+    color: black;
+    padding: 40px 0; /* Adjust the padding as needed */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.overview-hero-image img {
+    width: 25%; /* Set the width to 100% to make the image fill its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    float: left;
+    box-sizing: border-box;
+}
+
+.overview-hero-text{
+    float: right;
+    box-sizing: border-box;
+    max-width: 60%;
+}
