@@ -43,16 +43,16 @@ ul li{
 }
 
 .overview-hero {
-    background-color: #bbcfdc; /* Replace this with the color of your choice */
+    background-color: #bbcfdc;
     color: black;
-    padding: 40px 0; /* Adjust the padding as needed */
+    padding: 40px 0;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .overview-hero-image img {
-    width: 25%; /* Set the width to 100% to make the image fill its container */
-    height: auto; /* Maintain the aspect ratio of the image */
+    width: 25%; 
+    height: auto;
     float: left;
     box-sizing: border-box;
 }
@@ -64,28 +64,28 @@ ul li{
 }
 
 .learn-about {
-    background-color: #f9f9f9; /* Set a background color for the Learn About section */
+    background-color: #f9f9f9; 
     padding: 40px 0;
 }
 
 .cards {
     display: flex;
-    justify-content: space-between; /* Align cards with space in between */
-    flex-wrap: wrap; /* Allow cards to wrap onto the next line if there isn't enough space */
+    justify-content: space-between; 
+    flex-wrap: wrap; 
 }
 
 .card {
-    width: calc(33.33% - 20px); /* Set the width for each card with some spacing in between */
-    margin-bottom: 20px; /* Add space between cards vertically */
-    background-color: #ffffff; /* Set a background color for the cards */
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px; 
+    background-color: #ffffff;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
-    width: 100%; /* Set the width to 100% to make the image fill its container */
-    height: auto; /* Maintain the aspect ratio of the image */
+    width: 100%; 
+    height: auto; 
 }
 
 .testing {
@@ -99,17 +99,17 @@ ul li{
     
     box-sizing: border-box;
     color: white;
-    padding: 20px; /* Adjust padding as needed */
+    padding: 20px; 
     max-width: 60%; 
-    text-align: left; /* Align text to the left within the text box */
+    text-align: left; 
 }
 
 .cta {
-    flex: 0 0 30%;
+    flex: 0 0 calc(30% - 40px); 
     box-sizing: border-box;
+    padding: 20px;
     text-align: right;
-    
-    
+    position: relative;
 }
 
 .btn {
@@ -120,10 +120,35 @@ ul li{
     font-size: 16px;
     border-radius: 8px;
     transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: -150%;
+    transform: translateY(-50%);
+    right: 0;
 }
+
 
 .btn:hover {
     background-color: white;
     color: black;
     border: 2px solid #4CAF50;
+}
+
+article {
+    display: flex;
+    align-items: center; 
+}
+
+article img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    margin-right: 20px; 
+}
+
+.article-body {
+    flex: 1; 
+    text-align: left; 
+    
 }
